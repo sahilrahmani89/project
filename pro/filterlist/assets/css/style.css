@@ -1,0 +1,65 @@
+/*// ======================*/
+/*	1.General Code*/
+/*==========================*/
+
+
+
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #555b62;
+  left: 0;
+  background-color:#fff;
+  transition: 0.3s;
+}
+
+/*----------------------
+	1.1. Typography
+------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #752B00;
+  margin: 0 auto 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  width: 100%;
+  word-break:break-word;
+  line-height:1.4;
+}
+
+
+/*---------- button -------------------*/
+ul{
+  padding: 0;
+}
+ul li{
+  list-style: none;
+  margin:0 0px 10px 5px ;
+  color: #752B00;
+}
+ul li a{
+  cursor: default;
+  color: #752B00;
+  font-size: 22px;
+  font-weight: 700;
+}
+ul li a:hover{
+   text-decoration: none; 
+}
+input{
+  width: 100%;
+}

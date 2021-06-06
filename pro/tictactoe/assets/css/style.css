@@ -1,0 +1,128 @@
+/*// ======================*/
+/*	1.General Code*/
+/*==========================*/
+
+
+
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'Kalam', cursive;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #555b62;
+  left: 0;
+  background-color:#c9bfbf;
+  transition: 0.3s;
+}
+
+.btn{
+    color: rgb(17, 16, 16);
+    background-color: #DA8B18;
+    border-radius: 0px;
+    padding:   10px 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.btn:hover{
+  transition: 0.4s;
+  background: #000;
+  color: #fff;
+}
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+
+/*---------- button -------------------*/
+.mt-100{
+  margin-top: 100px;
+}
+.result{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+}
+.t-body{
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+.resetDiv{
+  margin: 0 auto;
+  text-align: center;
+  margin-top:20px;
+  display: none;
+}
+.resetDiv.show{
+  display: block;
+}
+.circle{
+  position: relative;
+}
+.cross{
+  position: relative;
+}
+.cross:after{
+  position: absolute;
+  content: '+';
+  justify-content: center;
+  top: 25%;
+  transform:  translate(-50%,-50%);
+  font-size: 48px;
+  font-weight: 500;
+  color: #000;
+  left: 38%;
+  transform: rotate(45deg);
+}
+.circle:after{
+  position: absolute;
+  content: '0';
+  justify-content: center;
+  top: 50%;
+  transform:  translate(-50%,-50%);
+  font-size: 28px;
+  font-weight: 500;
+  color: #000;
+  left: 50%;
+}
+.cell{
+  padding-left: 0;
+  padding-right: 2px;
+  padding-top: 4px;
+  width:50px;
+  height: 50px;
+  text-align: center;
+  background-color: #20c997;
+  border:1px solid #000;
+  cursor: pointer;
+}
+.cell.cross,.cell.circle{
+  cursor: not-allowed;
+}
+.cell-1{
+  border-top: none;
+  border-left:none;
+}
+.cell-2,.cell-3{
+  border-top: none;
+}
+.cell-4,.cell-7{
+  border-left: none;
+}
+.cell-7,.cell-8,.cell-9{
+  border-bottom: none;
+}
+.cell-3,.cell-6,.cell-9{
+  border-right: none;
+}

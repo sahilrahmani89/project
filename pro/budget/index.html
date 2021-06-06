@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Budget</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!--main css-->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="icon"  href="budget.ico">
+
+</head>
+ <body>
+<!--  -->
+<section class="bud-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-4 col-12">
+        <div class="en-bud mt-40">
+          <form id='en-form' class="en-form">
+            <label for ='enter-budget'>
+              Please Enter Your Budget
+            </label>
+            <input type="number" name="en-budget" class="form-control en-budget" placeholder="Enter Your Budget">
+            <a href="#" class="btn en-calc">Submit</a>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-8 col-12">
+        <div class="row mt-40">
+         
+            <div class="col-lg-4 text-center">
+            <div class="buget-content">
+              <h4>Budget</h4>
+              <img src="assets/img/budget.png" class="img-fluid br-5">
+              <h5 class="text-success"> ₹ <span class="budget-digi ml-1">0</span></h5>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="buget-content">
+              <h4>Expense</h4>
+              <img src="assets/img/expenses.png" class="img-fluid br-5">
+              <h5 class="text-danger">₹ <span class="expense-digi ml-1">0</span></h5>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="buget-content">
+              <h4>Balance</h4>
+              <img src="assets/img/balance.png" class="img-fluid br-5">
+              <h5 class="text-info">₹ <span class="balance-digi ml-1">0</span></h5>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-4 col-12">
+        <div class="en-expense mt-40">
+          <form id="ex-form" class="en-form">
+            <label>Enter Your Expense</label>
+            <input type="text" class="exp-things">
+            <label>Enter Your Expense Value</label>
+            <input type="number" name="ex-value" class="exp-value">
+            <a href="#" class="btn ex-calc">Submit</a>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-8 col-12">
+        <div class="mt-40">
+          <div class="ex-table">
+                <div class="table-responsive">
+                 <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Expense Title</th>
+                      <th scope="col">Expense Value</th>
+                      <th scope="col">Delete</th>
+                    </tr>
+                  </thead>
+                  <tbody class="ex-tabElem">
+                    
+                  </tbody>
+                 </table>
+            </div>
+         
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- script -->
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+</body>
+</html> 

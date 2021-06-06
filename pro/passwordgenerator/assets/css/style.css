@@ -1,0 +1,77 @@
+/*// ======================*/
+/*	1.General Code*/
+/*==========================*/
+
+
+
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #555b62;
+  left: 0;
+  background-color:#fff;
+  transition: 0.3s;
+}
+/*---------------*/
+#form .btn{
+  width: 100%;
+}
+.btn:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.btn:active{
+  outline: 0;
+  box-shadow: none;
+}
+.pg-section{
+  margin-top: 50px;
+}
+.pg-body{
+  width: 400px;
+  border: 2px solid #fb9000;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.pg-head{
+  display: flex;
+  background: #fb8000;
+  width: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  overflow: auto;
+}
+.pg-head a{
+  margin-left: auto;
+} 
+.form-group{
+  display: flex;
+  width: auto;
+  height: 30px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+.form-group input{
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+#form .form-group .passlen{
+  width: 80px;
+  height:30px;
+  cursor: default;
+}
+

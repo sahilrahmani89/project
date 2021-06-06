@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Password Generator </title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!--main css-->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="icon" href="pass.ico">
+
+</head>
+ <body>
+<!--  -->
+<section class="pg-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="pg-body">
+          <div class="pg-head">
+            <div class="pass" id="pass"></div>
+            <a href="#" class="btn btn-sm btn-primary copy ">Copy</a>
+          </div>
+          <form  id="form">
+            <div class="form-group">
+              <label name='psslen'>
+                select lenght of password
+              </label>
+              <input type="number" name="" class="passlen">
+            </div>
+            <div class="form-group">
+              <label name='digit'>
+                select number
+              </label>
+              <input type="checkbox" name="" class="number check">
+              <span class="checkmark"></span>
+            </div>
+            <div class="form-group">
+              <label name='lowercase'>
+                Select lowercase
+              </label>
+              <input type="checkbox" name="" class="lowercase check">
+              <span class="checkmark"></span>
+            </div>
+            <div class="form-group">
+              <label name='uppercase'>
+                select uppercase
+              </label>
+              <input type="checkbox" name="" class="uppercase check">
+              <span class="checkmark"></span>
+            </div>
+            <div class="form-group">
+              <label name='symbols'>
+                select symbols
+              </label>
+              <input type="checkbox" name="" class="symbols check">
+              <span class="checkmark"></span>
+            </div>
+            <a href="#" class="btn-lg btn-primary btn generate">Generate Password</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- script -->
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+</body>
+</html> 

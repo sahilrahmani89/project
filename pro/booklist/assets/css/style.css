@@ -1,0 +1,109 @@
+/*// ======================*/
+/*	1.General Code*/
+/*==========================*/
+
+
+
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'Architects Daughter', cursive;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #fff;
+  left: 0;
+  background-color:#fff;
+  transition: 0.3s;
+}
+
+label{
+  margin-bottom: 0;
+}
+/*------*/
+.form-control{
+  margin-bottom: 10px;
+}
+.table-responsive{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.table thead tr th {
+    border-top: 0;
+}
+
+.table thead th {
+    border-bottom: 1px solid #dee2e6;
+}
+/*---------- button -------------------*/
+ .btn{
+  padding: .3em 1.2em;
+  border-radius: 0;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  }
+  .btn:hover{
+    color: #fff;
+    background-color: #000567;
+    transition: 0.4s;
+  }
+  .btn:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  .btn-sm{
+    background: #000;
+    border-color: #000;
+  }
+  .btn-sm:hover{
+    color:#fff;
+    background: #000567;
+    border-color: #000567;
+  }
+  .btn-sm:focus{
+    outline: none;
+  }
+  #form .form-group input:focus{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #000;
+  }
+ /*--------------*/
+ .bgText{
+  padding: 30px;
+  border: 2px solid #000;
+  background: #822727;
+ }
+ .sendedText{
+  text-align:  left;
+  color: #000;
+  font-size: 500;
+ }
+ .center{
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  vertical-align: middle;
+}
+.area{
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 10px 5px #822727;
+}
+.formArea{
+  padding: 30px;
+  background-color:#822727;
+  margin-top: 50px;
+}

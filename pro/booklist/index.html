@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Booklist </title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- favicon -->
+  <link rel="icon"  href="book.ico">
+  <!--main css-->
+   <link rel="stylesheet" href="assets/css/style.css">
+    <!-- google fonts-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+</head>
+ <body>
+<!--  -->
+<section class="bgChange">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9 ">
+        <div class=" formArea">
+         <form id='form'>
+            <div class="form-group">
+              <label for="bid">Enter Book Id</label>
+              <input type="bid" class="form-control " id="bookId"  placeholder="Book Id"  autocomplete='off' >
+              <label for="bookName">Enter Book Name</label>
+              <input type="name" class="form-control bookName" id="title"  placeholder="Book title"  autocomplete='off' >
+                <label for="author">Author Name</label>
+              <input type="name" class="form-control " id="author"  placeholder="John Doe"  autocomplete='off' >
+                <label for="year">Published Year</label>
+              <input type="name" class="form-control" id="year"  placeholder="eg.. 1990"  autocomplete='off' >
+            </div>
+            <button class="btn play" type="submit">Add</button>
+          </form>
+        </div>
+        <div class="my-3">
+          <div class="bgText">
+            <div class="table-responsive">
+                 <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Book ID</th>
+                      <th scope="col">Title</th>
+                      <th scope="col">Author</th>
+                      <th scope="col">Year</th>
+                      <th scope="col">Del</th>
+                    </tr>
+                  </thead>
+                  <tbody class="tabElem">
+                    
+                  </tbody>
+            </table>
+            </div>
+         
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- script -->
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+</body>
+</html> 

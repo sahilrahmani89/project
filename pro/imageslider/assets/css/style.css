@@ -1,0 +1,65 @@
+/*// ======================*/
+/*	1.General Code*/
+/*==========================*/
+
+
+
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #555b62;
+  left: 0;
+  background-color:#fff;
+  transition: 0.3s;
+}
+/*-*/
+.imageDiv{
+  margin-top: 50px;
+  position: relative;
+}
+.imageDiv img{
+  height: 70vh;
+  width:100%;
+  z-index: 1;
+  border:1px solid #000;
+  position: relative;
+}
+.imageDiv  .btn-left{
+  position: absolute;
+  left: -18px;
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 2;
+}
+.btn:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.imageDiv  .btn-right{
+  position: absolute;
+  right: -18px;
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 2;
+}
+.btn{
+  padding: 30px 15px;
+  cursor: pointer;
+  position: relative;
+  border:1px solid #000;
+  text-align: center;
+  background: #000;
+}
+.btn i{
+  font-size: 22px;
+  color: #fff;
+}

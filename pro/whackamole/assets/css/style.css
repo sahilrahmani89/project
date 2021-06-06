@@ -1,0 +1,95 @@
+/*// ======================*/
+/*	1.General Code*/
+/*==========================*/
+
+
+
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'Kalam', cursive;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #555b62;
+  left: 0;
+  background-color:#c9bfbf;
+  transition: 0.3s;
+}
+.gameOver{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.btn{
+    color: rgb(17, 16, 16);
+    background-color: #DA8B18;
+    border-radius: 0px;
+    padding:   10px 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.btn:hover{
+  transition: 0.4s;
+  background: #000;
+  color: #fff;
+}
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+ul li{
+  display: inline;
+}
+ul{
+  padding: 0;
+  position: relative;
+  font-size: 22px;
+  font-weight: 500;
+}
+ul li:first-child{
+ position: absolute;
+ left: 0;
+ top: -35px;
+}
+ul li:last-child{
+position: absolute;
+right:35px;
+top: -35px;
+}
+
+/*---------- button -------------------*/
+.mt-100{
+  margin-top: 100px;
+}
+
+.mole{
+  background-image: url(../img/1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+
+.pad{
+  padding-left: 0;
+  padding-right: 2px;
+  padding-top: 4px
+  width:100px;
+  height: 100px;
+  text-align: center;
+  background-color: #DA8B18;
+  border:1px solid #000;
+}
+.start{
+      margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}

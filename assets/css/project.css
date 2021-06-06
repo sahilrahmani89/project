@@ -1,0 +1,221 @@
+/*css---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Muli&display=swap');
+  
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'Cinzel', serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #f8f9fa;
+  left: 0;
+  background-color:#2C2D2F;
+  transition: 0.3s;
+}
+.primary-overlay{
+	position:relative;
+	z-index:1;
+}
+.primary-overlay:before{
+	content:"";
+	position: absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	z-index:-1;
+	left:0;
+	background-color:rgba(20,54,108,0.9);
+}
+
+
+/*----------------------
+	1.1. Typography
+------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  margin: 0 auto 20px;
+ font-family: 'Cinzel', serif;
+  font-weight: 500;
+  width: 100%;
+  word-break:break-word;
+  line-height:1.4;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+  font-weight:700;
+  line-height:1.2;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 20px;
+  margin-bottom:10px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  word-break:break-word;
+ font-family: 'Muli', sans-serif;
+ color: #f8f9fa;;
+}
+
+a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+  font-weight: normal;
+  color: #000;
+  cursor: pointer;
+  font-family: 'Muli', sans-serif;
+  word-break:break-word;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin-bottom:0;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+li {
+  list-style: none;
+}
+span{
+	margin-bottom: 0;
+}
+/**/
+.prosec {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.mt-100{
+  margin-top: 100px;
+}
+.pc{
+  color:#e0b0ff;
+}
+.mxauto{
+  margin:0 auto;
+  text-align: center;
+}
+.relative{
+  position: relative;
+}
+.pro-info{
+  max-width:500px;
+  align-items:flex-start;
+}
+.pro-img{
+  width: 100%;
+  height: 100%;
+  border-color: #e0b0ff;
+  position: relative;
+  z-index: 1;
+}
+.pro-img .btn-left{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.pro-img .btn-right{
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  left: 15%;
+}
+.ml-10{
+  margin-left: 10px;
+}
+.btn{
+  padding: 15px 30px;
+  background-color: #e0b0ff;
+  color: #000;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.btn:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.btn:hover{
+  transition: 0.3s;
+  color: #fff;
+  background-color: #000;
+}
+.btn.btn-outline{
+  border-color: #e0b0ff;
+  color: #e0b0ff;
+  background-color: transparent;
+}
+.btn.btn-outline:hover{
+  background-color: #e0b0ff;
+  color: #000;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.small-pro img{
+  width: 100%;
+  height: 270px;
+  background-position: center;
+  background-size: cover;
+}

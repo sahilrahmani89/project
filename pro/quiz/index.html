@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Quiz</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="icon"  href="quiz.ico">
+  <!--main css-->
+   <link rel="stylesheet" href="assets/css/style.css">
+    <!-- google fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+ <body>
+<!--  -->
+<section class="intro">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-12">
+        <div class="center formArea">
+          <form id='form'>
+            <div class="form-group">
+              <label for="entername">Enter Your Name</label>
+              <input type="name" class="form-control userName" id="yourName"  placeholder="Your Name"  autocomplete='off' >
+            </div>
+            <!-- <input type="submit" name="" class="btn-main play"> -->
+            <!-- <a href=""   class="btn-main play">Play</a> -->
+            <button class="btn-main play" type="submit">Play</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- ---------------------------------- -->
+ <section class="task-wrapper task">
+    <div class="container">
+     <div class="row  justify-content-center">
+      <div class="col-lg-7">
+       <!--  -->
+       <div class="mt-20 question  boom">
+        <h5 class=" mt-20 pc   nque">Question</h5>
+             <div class=" border-bottom">
+                    
+                    <div class="ans ml-2 d-flex align-items-center align-self-center">
+                      <div class="option relative">A</div>
+                        <label class="radio"> <input type="radio"  class="answer" name="labelinput" id="ans1" value="brazil"> <span class="option1">Brazil</span>
+                        </label>
+                    </div>
+                    <div class="ans ml-2 d-flex align-items-center align-self-center">
+                      <div class="option relative">B</div>
+                         <label class="radio"> <input type="radio"  class="answer" id="ans2" name="labelinput" > <span class="option2">Brazil</span>
+                        </label>
+                    </div>
+                    <div class="ans ml-2 d-flex align-items-center align-self-center">
+                      <div class="option relative">C</div>
+                        <label class="radio"> <input type="radio"  class="answer" id="ans3" name="labelinput" > <span class="option3">Brazil</span>
+                        </label>
+                    </div>
+                    <div class="ans ml-2 d-flex align-items-center align-self-center">
+                      <div class="option relative">D</div>
+                        <label class="radio"> <input type="radio"  class="answer" name="labelinput" id="ans4" > <span class="option4">Brazil</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="btn-link right mt-20">
+                 
+                  <button class="btn-main next">submit</button>
+                </div>
+                
+       </div>
+       <div class="showAnswerWrap">
+                 
+        </div>
+       <!--  -->
+     </div>
+    
+   </div>
+  </div>
+ </section>
+<!--  -->
+<!-- script -->
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+</body>
+</html> 

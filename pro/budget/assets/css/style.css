@@ -1,0 +1,92 @@
+/*// ======================*/
+/*	1.General Code*/
+/*==========================*/
+
+
+
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #555b62;
+  left: 0;
+  background-color:#fff;
+  transition: 0.3s;
+}
+form label{
+  font-size: 18px;
+  color: #000;
+}
+.buget-content h4{
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.buget-content img{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+  align-items:  center;
+  vertical-align: middle;
+}
+.en-form{
+  border: 2px solid #17a2b8;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: left;
+}
+.en-form input{
+  width: 100%;
+  border:2px solid #17a2b8;
+  border-radius:5px;
+      margin-bottom: 15px;
+}
+.en-form input:focus{
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgb(23 162 184 );
+  border-color: #17a2b8;
+}
+.en-form .btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  border:1px solid #17a2b8;
+  color: #17a2b8;
+  background:transparent;
+  transition: 0.4s;
+}
+.en-form .btn:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.en-form .btn:hover{
+  background: #17a2b8;
+  color: #fff;
+  transition: 0.4s;
+}
+.mt-40{
+  margin-top: 40px;
+}
+.buget-content h5{
+  font-size: 24px;
+  font-weight: 700;
+}
+.ex-table .table thead th {
+    border: 2px solid #17a2b8;
+}
+.ex-table .table  td {
+    border-bottom: 2px solid rgba(23, 162, 184,.06);
+    border-top:2px solid rgba(23, 162, 184,.06);
+}
+.ex-table .table-hover tbody tr:hover {
+    background-color: rgba(23, 162, 184,.075);
+    transition: 0.4s;
+}

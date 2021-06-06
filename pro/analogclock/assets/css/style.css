@@ -1,0 +1,100 @@
+/*// ======================*/
+/*	1.General Code*/
+/*==========================*/
+
+
+
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #555b62;
+  left: 0;
+  background-color:#fff;
+  transition: 0.3s;
+}
+
+
+/*---------- button -------------------*/
+.analog {
+  margin:0 auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #17a2b8;
+}
+
+.analog .number {
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
+  font-size: 1.2rem;
+}
+
+.analog .number1 { --rotation: 30deg; }
+.analog .number2 { --rotation: 60deg; }
+.analog .number3 { --rotation: 90deg; }
+.analog .number4 { --rotation: 120deg; }
+.analog .number5 { --rotation: 150deg; }
+.analog .number6 { --rotation: 180deg; }
+.analog .number7 { --rotation: 210deg; }
+.analog .number8 { --rotation: 240deg; }
+.analog .number9 { --rotation: 270deg; }
+.analog .number10 { --rotation: 300deg; }
+.analog .number11 { --rotation: 330deg; }
+
+.analog .needle {
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  border: 1px solid white;
+  transform-origin: bottom;
+  z-index: 10;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.analog::after {
+  content: '';
+  position: absolute;
+  background-color: #007bff;
+  z-index: 11;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.analog .needle.second {
+  width: 2px;
+  height: 38%;
+  background-color: #007bff;
+}
+
+.analog .needle.minute {
+  width: 4px;
+  height: 34%;
+  background-color: #000;
+}
+
+.analog .needle.hour {
+  width: 6px;
+  height: 30%;
+  background-color: transparent;
+  border: 2px solid #000;
+}

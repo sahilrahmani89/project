@@ -1,0 +1,29 @@
+/*// ======================*/
+/*	1.General Code*/
+/*==========================*/
+
+
+
+html{
+	overflow-x:hidden;
+}
+
+
+/*---------- button -------------------*/
+.mt-200{
+  margin-top: 200px;
+}
+.digitalClock{
+  padding: 30px;
+  background-color: #000;
+  border: 4px solid #fff;
+  outline: 2px solid #fff;
+  outline-offset:  -20px ;
+}
+.digitalClock h4{
+  text-align: center;
+  color: #14FF00;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 0;
+}

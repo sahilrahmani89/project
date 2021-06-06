@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Music Player</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!--main css-->
+   <link rel="stylesheet" href="assets/css/style.css">
+     <!--Font awesome-->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+   <link rel="icon" href="music.ico">
+   
+
+</head>
+ <body>
+<!--  -->
+ <section class="musicSection ">
+   <div class="container">
+     <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-5 col-sm-4 col-12">
+        <div class="my-5">
+          <h2 class="center-align">
+            Music Player
+          </h2>
+        </div>
+        
+          <h6 class="mTitle"></h6>
+          <div class="playerContainer">
+            
+              <audio src="assets/music/1.mp3" id="aud"></audio>
+             <ul class="playerContent">
+               <li class="musicImage">
+                 <img src="assets/img/1.jpeg" class="img-fluid musicIcon">
+               </li>
+               <li class="previousBlock mr-1">
+                  <a href="#" class="backward"><i class="fas fa-backward"></i></a>
+               </li>
+               <li class="playBlock mr-1" id="playBlock">
+                   <a href="#" class="playing "><i class="fas fa-play"></i></a>
+               </li>
+               <li class="nextBlock mr-1">
+                 <a href="#" class="forward"><i class="fas fa-forward"></i></a>
+               </li>
+               <li class="progress-bar">
+                 <a href="#" class="progress"></a>
+               </li>
+             </ul>
+            
+          </div>
+        
+      </div>
+     </div>
+   </div>
+ </section>
+<!-- script -->
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html> 

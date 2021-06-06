@@ -1,0 +1,98 @@
+/*// ======================*/
+/*	1.General Code*/
+/*==========================*/
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+html{
+	overflow-x:hidden;
+}
+
+body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 28px;
+  overflow-x: hidden;
+  font-weight: 400;
+  color: #555b62;
+  left: 0;
+  background-color:#fff;
+  transition: 0.3s;
+}
+
+/*---------- button -------------------*/
+.playerContainer ul{
+  padding: 0;
+  margin-bottom: 0;
+}
+.playerContainer ul li {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 0;
+}
+.playerContainer ul li:last-child{
+  display: block;
+}
+.playerContainer ul li.progress-bar{
+  background: #8084BF;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+.playerContainer ul li a.progress{
+  background-color: #1E2BE6;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.2s linear;
+}
+.playerContainer ul li.previousBlock a {
+    padding:0 20px 0 10px;
+}
+.playerContainer ul li.playBlock a {
+  padding:0 20px 0 10px;
+}
+.playerContainer ul li.nextBlock a {
+  padding:0 0 0 10px;
+}
+.playerContainer ul li a i{
+  color: #1E2BE6;
+  font-size: 22px;
+  vertical-align:  middle;
+}
+.playerContainer ul li a i:hover{
+  color: #8084BF;
+  transition: 0.4s;
+}
+.playerContainer ul li a{
+  vertical-align: middle;
+}
+
+.playerContainer ul li img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 30px;
+  animation: rotating 2s linear infinite;
+  animation-play-state: paused;
+}
+.musicSection.moving .playerContainer ul li img{
+    animation-play-state: running;
+}
+.playerContainer{
+  padding: 10px 15px;
+  border : 2px solid #1E2BE6;
+}
