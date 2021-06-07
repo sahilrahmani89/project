@@ -454,12 +454,13 @@ span{
 	outline: 0;
 	box-shadow: none;color: #fff;
 }
-/*.page-contains .btn:hover{
- background: linear-gradient(150deg,#281483 15%, #8f6ed5 70%, #d782d9 94%);
- transition: 0.4s;
- outline: none;
- border-image: linear-gradient(150deg,#281483 15%, #8f6ed5 70%, #d782d9 94%);
-}*/
+.mr2{
+  margin-right: 20px;
+}
+.mt-10{
+  margin-top: 10px;
+}
+
 .ms-aside-toggler .ms-toggler-bar, .ms-nav-toggler .ms-toggler-bar {
     height: 2px;
     width: 20px;
@@ -487,28 +488,7 @@ span{
 /*-------*/
 
 /*media query*/
-/*@media (max-width: 1499px) and (min-width: 1300px){
-  body.sidebar-main .sidebar {
-    width: 200px;
-    left: 0
-    }
-    .sidebar {
-        width: 0px;
-        left:-40px;
-    }
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    padding-left: 20px; 
-    }
-    body.sidebar-main .page-contains .container-fluid{
-    padding-left: 220px; 
-    }
-    body.sidebar-main .username{
-    	display: block;
-    }
-    .username{
-    	display: none;
-    }
-}*/
+
 @media (min-width: 1200px){
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     padding-left: 20px; 
@@ -534,17 +514,18 @@ span{
 }
 @media (max-width: 1299px){
 body.sidebar-main .sidebar {
-    width: 260px;
-    left: 0;
-    z-index: 999;
-    top: 72px;
+    
+    display: inline-block;
+    z-index: 99;
+    left: -260px;
     overflow: scroll;
     height: 90vh;
 }
 .sidebar {
-    display: inline-block;
-    z-index: 99;
-    left: -260px;
+    width: 260px;
+    left: 0;
+    z-index: 999;
+    top: 72px;
     overflow: scroll;
     height: 90vh;
 }
