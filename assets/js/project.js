@@ -23,8 +23,14 @@ const  QuizImgSlider =() =>{
 		}
 		load(qImg[indexOfqImg]);
 	}
-	btnright.addEventListener('click',nextImg);
-	btnleft.addEventListener('click',prevImg);
+	btnright.addEventListener('click',(e)=>{
+		e.preventDefault();
+		nextImg();
+	});
+	btnleft.addEventListener('click',(e)=>{
+		e.preventDefault();
+		prevImg();
+	});
 	setInterval(()=>{
 		nextImg();
 	},2000)
