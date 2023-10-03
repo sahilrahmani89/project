@@ -271,7 +271,8 @@ span{
 }
 .sidebar-menu .menu li a i{
     margin-right: 20px;
-    font-size: 16px;
+    font-size: 20px;
+    width: 22px;
 }
 .fs-30{
   font-size: 30px;
